@@ -1,0 +1,19 @@
+language: ruby
+
+rvm:
+- 2.4.0
+
+env:
+  global:
+  # speeds up installation of html-proofer
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+script: ./scripts/cibuild
+
+deploy:
+  provider: pages
+  local_dir: _site
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master

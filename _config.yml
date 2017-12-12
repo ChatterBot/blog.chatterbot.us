@@ -1,3 +1,10 @@
 title: ChatterBot Blog
 
 theme: bravissimo
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - scripts

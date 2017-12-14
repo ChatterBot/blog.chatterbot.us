@@ -2,6 +2,13 @@ title: ChatterBot Blog
 
 theme: bravissimo
 
+defaults:
+
+  - scope:
+      type: posts
+    values:
+      layout: post
+
 plugins:
   - jekyll-sitemap
 

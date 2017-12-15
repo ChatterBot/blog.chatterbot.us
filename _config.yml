@@ -2,6 +2,13 @@ title: ChatterBot Blog
 
 theme: bravissimo
 
+email: gunthercx@gmail.com
+
+twitter_username: gunthercox
+github_username:  gunthercox
+
+google_analytics: UA-42661604-7
+
 defaults:
 
   - scope:
